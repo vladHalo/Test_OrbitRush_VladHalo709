@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4ae63e88d685d6449379330c1a8e1d9, type: 3}
+  m_Name: TypeCell
+  m_EditorClassIdentifier: 
+  _spriteBack: {fileID: 21300000, guid: b0c67e306c2c0134c82bf17dc1fae17c, type: 3}
+  _spriteModels:
+  - Name: Blue
+    _typeCell: 0
+    _sprite: {fileID: -1337358693, guid: 70707af9d81e21840abe192a4f5d6c7b, type: 3}
+  - Name: Red
+    _typeCell: 1
+    _sprite: {fileID: -41863150, guid: 70707af9d81e21840abe192a4f5d6c7b, type: 3}
+  - Name: Green
+    _typeCell: 2
+    _sprite: {fileID: -860569152, guid: 70707af9d81e21840abe192a4f5d6c7b, type: 3}
