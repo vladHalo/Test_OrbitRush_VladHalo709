@@ -1,8 +1,10 @@
 using UnityEngine;
 using UnityEngine.UI;
+using AppsFlyerSDK;
 
 public class UIController : MonoBehaviour
 {
+    [SerializeField] private Text _data;
     [SerializeField] private Text _scoreUI;
     [SerializeField] private GameObject[] _pages;
     private int _count;
